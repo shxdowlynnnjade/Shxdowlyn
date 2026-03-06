@@ -17,7 +17,7 @@ Para configurar y ejecutar el bot localmente (requiere Node.js):
 
 1. Clonar repositorio:  
    ```bash
-   git clone https://github.com/Dev-FelixOfc/AkinaWa-Bot.git
+   git clone https://github.com/shxdowlynnnjade/Shxdowlyn.git
    ```
 2. Instalar dependencias:  
    ```bash
@@ -32,13 +32,13 @@ Para configurar y ejecutar el bot localmente (requiere Node.js):
 ---
 
 <div align="center">
-  <a href="https://github.com/Dev-FelixOfc/AkinaWa-Bot/stargazers">
+  <a href="https://github.com/shxdowlynnnjade/Shxdowlyn/stargazers">
     <img src="https://img.shields.io/badge/Star%20on%20GitHub-⭐-blueviolet?style=for-the-badge" alt="Star on GitHub">
   </a>
-  <a href="https://github.com/Dev-FelixOfc/AkinaWa-Bot/fork">
+  <a href="https://github.com/shxdowlynnnjade/Shxdowlyn/fork">
     <img src="https://img.shields.io/badge/Fork%20Repo-🍴-green?style=for-the-badge" alt="Fork Repo">
   </a>
-  <a href="https://github.com/Dev-FelixOfc/AkinaWa-Bot/issues/new">
+  <a href="https://github.com/shxdowlynnnjade/Shxdowlyn/issues/new">
     <img src="https://img.shields.io/badge/Report%20Issue-🐛-red?style=for-the-badge" alt="Report Issue">
   </a>
 </div>
