@@ -16,6 +16,7 @@ let comandosFolders = []
 async function filesInit(folder = comandosFolder, filter = comandosFilter, conn) {
     const resolved = resolve(folder)
     if (resolved in watcher) return
+
     comandosFolders.push(resolved)
 
     await Promise.all(
@@ -23,7 +24,7 @@ async function filesInit(folder = comandosFolder, filter = comandosFilter, conn)
             try {
                 let file = globalThis.__filename(join(resolved, filename))
                 const module = await import(file)
-                if (module) comandos[filename] = module.default || module
+                if (module) comandos[filename] = 'default' in module ? module.default : module
             } catch (e) {
                 conn?.logger.error(e)
                 delete comandos[filename]
@@ -56,23 +57,20 @@ async function reload(conn, folder = comandosFolder, filter = comandosFilter, _e
                 conn?.logger.warn(`deleted comando - '${filename}'`)
                 return delete comandos[filename]
             }
-        } else {
-            conn?.logger.info(`new comando - '${filename}'`)
-        }
+        } else conn?.logger.info(`new comando - '${filename}'`)
 
         let err = syntaxerror(readFileSync(dir), filename, {
             sourceType: 'module',
             allowAwaitOutsideFunction: true
         })
 
-        if (err) {
-            conn?.logger.error(`syntax error while loading '${filename}'\n${format(err)}`)
-        } else {
+        if (err) conn?.logger.error(`syntax error while loading '${filename}'\n${format(err)}`)
+        else {
             try {
                 const module = await importFile(globalThis.__filename(dir)).catch(console.error)
                 if (module) comandos[filename] = module
             } catch (e) {
-                conn?.logger.error(`error require comandos '${filename}\n${format(e)}'`)
+                conn?.logger.error(`error require comandos '${filename}'\n${format(e)}`)
             } finally {
                 comandos = Object.fromEntries(
                     Object.entries(comandos).sort(([a], [b]) => a.localeCompare(b))
