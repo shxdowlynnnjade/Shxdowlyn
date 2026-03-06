@@ -1,10 +1,11 @@
-# Akina Wa
-
-![AkinaWa Bot](https://ibb.co/JwDK7rnR)
-[![Beta Version](https://img.shields.io/badge/version-Beta%20v0.1.0-blue)](https://github.com/Dev-FelixOfc/AkinaWa-Bot/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/Dev-FelixOfc/AkinaWa-Bot?style=social)](https://github.com/Dev-FelixOfc/AkinaWa-Bot/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Dev-FelixOfc/AkinaWa-Bot?style=social)](https://github.com/Dev-FelixOfc/AkinaWa-Bot/network)
+# Shxdowlyn bot  
+  
+![Shxdowlyn Banner](https://files.catbox.moe/lcxmnc.jpg)  
+  
+[![Beta Version](https://img.shields.io/badge/version-Beta%20v0.1.0-blue)](https://github.com/Shxdowlyn/Shxdowlyn/releases)    
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)    
+[![GitHub stars](https://img.shields.io/github/stars/Shxdowlyn/Shxdowlyn?style=social)](https://github.com/Shxdowlyn/Shxdowlyn/stargazers)    
+[![GitHub forks](https://img.shields.io/github/forks/Shxdowlyn/Shxdowlyn?style=social)](https://github.com/Shxdowlyn/Shxdowlyn/network)  
 
 Bienvenido al repositorio de Akina Wa, un bot de WhatsApp inspirado en la estética neko. Este proyecto se encuentra actualmente en versión Beta, en desarrollo activo y aún no está completo. Puede contener errores o faltarle comandos ya que apenas está en proceso
 
