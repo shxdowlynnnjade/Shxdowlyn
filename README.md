@@ -1,7 +1,6 @@
 # Akina Wa
 
-![Akina Wa Banner](https://files.catbox.moe/nfrlgm.jpg)
-
+![AkinaWa Bot](https://files.catbox.moe/nfrlgm.jpg)
 [![Beta Version](https://img.shields.io/badge/version-Beta%20v0.1.0-blue)](https://github.com/Dev-FelixOfc/AkinaWa-Bot/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/Dev-FelixOfc/AkinaWa-Bot?style=social)](https://github.com/Dev-FelixOfc/AkinaWa-Bot/stargazers)
